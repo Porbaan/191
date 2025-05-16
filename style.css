@@ -1,0 +1,237 @@
+	#key-container {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		background: white;
+		border: 2px solid #d9565f;
+		border-radius: 5px;
+		padding: 10px;
+		z-index: 1000;
+		width: 220px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	#key-container input,
+	#key-container button {
+		width: 100%;
+		font-size: 1em;
+		margin: 5px 0;
+		padding: 8px;
+		box-sizing: border-box;
+	}
+	
+	#key-container button {
+		background: #d9565f;
+		color: white;
+		border: none;
+		cursor: pointer;
+	}
+	
+	#key-container button:hover {
+		background: #b34248;
+	}
+	
+	#key-container {
+		display: none;
+		/* หรือ none ถ้าจะเริ่มซ่อน */
+	}
+	
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #FDE2E2;
+		text-align: center;
+		padding: 20px;
+		margin: 0;
+	}
+	
+	h2,
+	h3 {
+		color: #F07D8B;
+	}
+	
+	.content {
+		background-color: #FFF5F5;
+		border-radius: 10px;
+		padding: 20px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		margin-bottom: 20px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	
+	.section {
+		margin: 20px 0;
+	}
+	
+	.result-container {
+		position: relative;
+		width: 80%;
+		margin: 10px auto;
+	}
+	
+	.result {
+		font-size: 1.5em;
+		color: #D9776A;
+		height: 50px;
+		text-align: center;
+		border: 2px solid #F07D8B;
+		border-radius: 5px;
+		background-color: #fff;
+		padding: 5px;
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.copy-btn {
+		position: absolute;
+		right: 10px;
+		top: 35%;
+		transform: translateY(-50%);
+		background-color: #E1B0D7;
+		color: white;
+		padding: 5px 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 1em;
+		cursor: pointer;
+	}
+	
+	.toggle-lottery-name-1 {
+		position: absolute;
+		right: 10px;
+		top: 35%;
+		transform: translateY(-50%);
+		background-color: #E1B0D7;
+		color: white;
+		padding: 5px 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 1em;
+		cursor: pointer;
+	}
+	
+	.clear-btn {
+		position: absolute;
+		right: 10px;
+		top: 35%;
+		transform: translateY(-50%);
+		background-color: #E1B0D7;
+		color: white;
+		padding: 5px 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 1em;
+		cursor: pointer;
+	}
+	
+.section {
+  position: relative;
+}
+
+	.close-btn {
+		position: absolute;
+		right: 10px;
+		top: 100px;
+		transform: translateY(-50%);
+		background-color: #E1B0D7;
+		color: white;
+		padding: 5px 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 1em;
+		cursor: pointer;
+	}
+	
+	.close-btn:hover {
+		background-color: #D9776A;
+	}
+	
+	.copy-btn:hover {
+		background-color: #D9776A;
+	}
+	
+	button {
+		background-color: #F07D8B;
+		color: white;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 5px;
+		font-size: 1.2em;
+		cursor: pointer;
+		transition: background-color 0.3s;
+		margin-top: 10px;
+	}
+	
+	button:hover {
+		background-color: #D9776A;
+	}
+	
+	footer {
+		margin-top: 20px;
+		font-size: 0.9em;
+	}
+	
+	footer a {
+		color: #F07D8B;
+		text-decoration: none;
+	}
+	
+	.button-container {
+		margin-top: 30px;
+	}
+	
+	#current-date {
+		display: none;
+	}
+	
+	#result-rong {
+		display: none;
+	}
+	
+	.canvas-container {
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	#balloon-container {
+		position: fixed;
+		top: 40px;
+		right: 10px;
+		z-index: 1000;
+		background: #FFDDC1;
+		border: 2px solid #D9776A;
+		border-radius: 5px;
+		padding: 10px;
+		width: 220px;
+		display: none;
+		/* ซ่อนบอลลูนตอนเริ่มต้น */
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+	
+	#remaining-days-balloon {
+		font-size: 1.2em;
+		color: #D9565F;
+	}
+	
+	canvas {
+		display: inline-block;
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.section[data-hidden="true"] {
+		display: none;
+	}
+	
+	@media (max-width: 600px) {
+		h2 {
+			font-size: 1.5em;
+		}
+		.result {
+			width: 90%;
+		}
+		button {
+			font-size: 1em;
+		}
+	}
